@@ -7,8 +7,6 @@ cd Documents
 mkdir -p Bioproject
 cd Bioproject
 
-#filename="$HOME/Documents/TESTE.csv"
-
 while read line
 do
     fasterq-dump ${line}
